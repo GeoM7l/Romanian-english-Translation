@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo.M Translation Services</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #0077cc;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #222;
+            color: #bbb;
+            padding: 10px;
+            font-size: 14px;
+        }
+    </style>
+    <script>
+        function switchLanguage() {
+            document.getElementById('title').innerText = 'Geo.M – Traducător Engleză ↔ Română';
+            document.getElementById('subtitle').innerText = 'Servicii de traducere eficiente, fiabile și rapide';
+            document.getElementById('about-title').innerText = 'Despre mine';
+            document.getElementById('about-text').innerHTML = 
+                'Salut! Sunt Geo.M, vorbitor nativ de română și comunicator fluent în limba engleză (nivel C1). \
+                Mă specializez în traducerea textelor între engleză și română cu acuratețe și rapiditate. \
+                Pot edita sau traduce până la <strong>700 de cuvinte în mai puțin de o zi</strong>.';
+            document.getElementById('services-title').innerText = 'Serviciile Mele';
+            document.getElementById('services-list').innerHTML = 
+                '<li>Traducere din engleză în română</li>\
+                 <li>Traducere din română în engleză</li>\
+                 <li>Corectură și editare text</li>\
+                 <li>Livrare rapidă în 24 de ore (până la 700 de cuvinte)</li>';
+            document.getElementById('contact-title').innerText = 'Contact';
+            document.getElementById('contact-text').innerHTML = 'Email: <a href="mailto:geom.translator@email.com">geom.translator@email.com</a>';
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Geo.M – English ↔ Romanian Translator</h1>
+        <p id="subtitle">Efficient, reliable, and fast translation services</p>
+        <button class="button" onclick="switchLanguage()">Switch to Romanian</button>
+    </header>
+
+    <section class="about">
+        <h2 id="about-title">About Me</h2>
+        <p id="about-text">
+            Hello! I'm Geo.M, a native Romanian speaker and a fluent English communicator (C1 level).
+            I specialize in translating texts between English and Romanian with accuracy and speed.
+            I can edit or translate up to <strong>700 words in less than a day</strong>.
+        </p>
+    </section>
+
+    <section class="services">
+        <h2 id="services-title">My Services</h2>
+        <ul id="services-list">
+            <li>English to Romanian Translation</li>
+            <li>Romanian to English Translation</li>
+            <li>Proofreading & Text Editing</li>
+            <li>Fast delivery within 24 hours (up to 700 words)</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2 id="contact-title">Contact Me</h2>
+        <p id="contact-text">Email: <a href="mailto:geom.translator@email.com">geom.translator@email.com</a></p>
+    </section>
+
+    <footer>
+        <p> 2025 Geo.M Translation Services</p>
+    </footer>
+</body>
+</html>
